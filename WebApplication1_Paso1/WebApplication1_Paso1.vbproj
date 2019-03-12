@@ -159,6 +159,7 @@
     <Content Include="Paginas\Menu.aspx" />
     <Content Include="Paginas\Logeo.aspx" />
     <Content Include="Paginas\Registro.aspx" />
+    <Content Include="Paginas\Tema1.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -257,6 +258,13 @@
     </Compile>
     <Compile Include="Paginas\Registro.aspx.vb">
       <DependentUpon>Registro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Tema1.aspx.designer.vb">
+      <DependentUpon>Tema1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Tema1.aspx.vb">
+      <DependentUpon>Tema1.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.vb">
